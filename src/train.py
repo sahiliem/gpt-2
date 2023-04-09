@@ -279,7 +279,7 @@ def main():
         # exit()
 
         try:
-            while True:
+            while counter < 50000:
                 if counter % args.save_every == 0:
                     save()
                 if counter % args.sample_every == 0:
